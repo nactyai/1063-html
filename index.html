@@ -1,15 +1,356 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>plants</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@300;400;600;700&family=Roboto&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="./css/device.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h1>Hey</h1>
-    <img src="img/cat.webp" alt="cat">
-    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__top-inner">
+        <a class="logo" href="#">
+          <img src="./images/logo.svg" alt="logo">
+        </a>
+
+        <nav class="nav">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a class="menu-link" href="#">
+                Home
+              </a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="#">
+                About us
+              </a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="#">
+                Service
+              </a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="#">
+                Price
+              </a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="#">
+                Contacts
+              </a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+
+      <div class="header__content">
+        <!-- <div class="container"> -->
+          <div class="header__content-inner">
+            <img class="header__content-img" src="./images/header-leafs.png" alt="header leaf img">
+            <div class="header__content-text">
+              <h3 class="header__content-text-title">
+                We grow <span>plants</span> and give you oxygen
+              </h3>
+              <p class="header__content-ptext">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+              </p>
+              <a class="header__content-text-link" href="#">LEARN MORE</a>
+            </div>
+          </div>
+        <!-- </div> -->
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="professional">
+      <div class="container">
+        <div class="professional__inner">
+          <div class="professional__inner-description">
+            <h3 class="professional__inner-title">
+              We are <span>professional experienced</span> gardeners
+            </h3>
+            <p class="professional__inner-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+              printer took a galley of type and scrambled it to make a type specimen book.
+              It has survived not only five centuries, but also the leap into electronic
+              typesetting, remaining essentially unchanged.
+            </p>
+          </div>
+          <img class="professional__inner-img" src="./images/houseplant.png" alt="houseplant img">
+        </div>
+      </div>
+    </section>
+    <!-- <section class="service">
+      <div class="container">
+        <div class="service__top">
+          <h3 class="service__top-title">
+            Service and our projects
+          </h3>
+          <div class="service__filter-btn">
+            <button class="service__btn"> Gardens</button>
+            <button class="service__btn">Lawn</button>
+            <button class="service__btn">Planting</button>
+          </div>
+        </div>
+        <div class="service__content">
+          <div class="service__item">
+            <img class="service__item-img" src="./images/service/service-first.jpg" alt="service item image">
+            <div class="service__item-description">
+              <h4 class="service__item-title">Garden care</h4>
+              <p class="service__item-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="service__item">
+            <img class="service__item-img" src="./images/service/service-two.jpg" alt="service item image">
+            <div class="service__item-description">
+              <h4 class="service__item-title">Planting</h4>
+              <p class="service__item-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="service__item">
+            <img class="service__item-img" src="./images/service/service-three.jpg" alt="service item image">
+            <div class="service__item-description">
+              <h4 class="service__item-title">Lawn care</h4>
+              <p class="service__item-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="service__item">
+            <img class="service__item-img" src="./images/service/service-four.jpg" alt="service item image">
+            <div class="service__item-description">
+              <h4 class="service__item-title">Planting</h4>
+              <p class="service__item-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="service__item">
+            <img class="service__item-img" src="./images/service/service-five.jpg" alt="service item image">
+            <div class="service__item-description">
+              <h4 class="service__item-title">Garden care</h4>
+              <p class="service__item-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="service__item">
+            <img class="service__item-img" src="./images/service/service-six.jpg" alt="service item image">
+            <div class="service__item-description">
+              <h4 class="service__item-title">Planting</h4>
+              <p class="service__item-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    
+    
+    <section class="service">
+      <div class="container">
+        <div class="service__top">
+          <h3 class="service__top-title">
+            Service and our projects
+          </h3>
+          <div class="service__filter-btn">
+            <button class="service__btn service__btn-type_gardens" data-filter="gardens"> Gardens</button>
+            <button class="service__btn service__btn-type_lawn" data-filter="lawn">Lawn</button>
+            <button class="service__btn service__btn-type_planting" data-filter="planting">Planting</button>
+          </div>
+        </div>
+        <div class="service__content">
+          <div class="service__item gardens">
+            <img class="service__item-img" src="./images/service/service-first.jpg" alt="service item image">
+            <div class="service__item-description">
+              <h4 class="service__item-title">Garden care</h4>
+              <p class="service__item-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="service__item planting">
+            <img class="service__item-img" src="./images/service/service-two.jpg" alt="service item image">
+            <div class="service__item-description">
+              <h4 class="service__item-title">Planting</h4>
+              <p class="service__item-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="service__item lawn">
+            <img class="service__item-img" src="./images/service/service-three.jpg" alt="service item image">
+            <div class="service__item-description">
+              <h4 class="service__item-title">Lawn care</h4>
+              <p class="service__item-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="service__item planting">
+            <img class="service__item-img" src="./images/service/service-four.jpg" alt="service item image">
+            <div class="service__item-description">
+              <h4 class="service__item-title">Planting</h4>
+              <p class="service__item-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="service__item gardens">
+            <img class="service__item-img" src="./images/service/service-five.jpg" alt="service item image">
+            <div class="service__item-description">
+              <h4 class="service__item-title">Garden care</h4>
+              <p class="service__item-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="service__item planting">
+            <img class="service__item-img" src="./images/service/service-six.jpg" alt="service item image">
+            <div class="service__item-description">
+              <h4 class="service__item-title">Planting</h4>
+              <p class="service__item-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="prices">
+      <div class="container prices-container">
+        <h3 class="prices__title">
+          Prices
+        </h3>
+        <div class="prices__inner">
+          <div class="acordion-section">
+            <h3 class="acordion-section__title">Prices</h3>
+
+            <ul id="acordion">
+
+              <li class="acordion-item">
+                <h3 class="accordion-title">Basic</h3>
+                <dl class="acordion-panel">
+                  <!-- <dt></dt> -->
+                  <dd class="acordion-panel__description">Release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently</dd>
+                  <dd class="acordion-panel__price"><span>$15</span> / per hour</dd>
+                  <dd class="acordion-order">
+                    <a class="acordion-panel-link" href="">Order</a>
+                  </dd>
+                </dl>
+              </li>
+
+              <li class="acordion-item">
+                <h3 class="accordion-title">Standart</h3>
+                <dl class="acordion-panel">
+                  <!-- <dt></dt> -->
+                  <dd class="acordion-panel__description">Release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently</dd>
+                  <dd class="acordion-panel__price"><span>$15</span> / per hour</dd>
+                  <dd class="acordion-order">
+                    <a class="acordion-panel-link" href="">Order</a>
+                  </dd>
+                </dl>
+              </li>
+
+              <li class="acordion-item">
+                <h3 class="accordion-title">Pro care</h3>
+                <dl class="acordion-panel">
+                  <!-- <dt></dt> -->
+                  <dd class="acordion-panel__description">Release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently</dd>
+                  <dd class="acordion-panel__price"><span>$15</span> / per hour</dd>
+                  <dd class="acordion-order">
+                    <a class="acordion-panel-link" href="">Order</a>
+                  </dd>
+                </dl>
+              </li>
+            </ul>
+          </div>
+          <div class="prices__inner-contact">
+            <p class="prices__inner-contact-text">
+              Our best <span>gardeners</span> are ready to help you
+            </p>
+            <a class="prices__inner-contact-link" href="#">Contact us</a>
+            <img class="prices__inner-contact-img" src="./images/prices-leafs.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="container">
+
+        <div class="contact__inner">
+          <h3 class="contact-title">Contact us</h3>
+          <div class="contact__img">
+            <img class="contact__inner-img" src="./images/contact-woman-img.png" alt="contact woman">
+
+          </div>
+          <div class="contact__inner-city">
+            <ul id="acordion-city">
+              <li class="acordion__city-item">
+                <h3 class="accordion__city-title">City</h3>
+                <dl class="acordion__city-panel">
+                  <!-- <dt></dt> -->
+                  <dd class="acordion__city-panel__description">Release of Letraset sheets containing Lorem Ipsum
+                    passages,
+                    and more recently</dd>
+                  <dd class="acordion__city-panel__price"><span>$15</span> / per hour</dd>
+                  <dd class="acordion-order">
+                    <a class="acordion__city-panel__link" href="">Order</a>
+                  </dd>
+                </dl>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <ul class="footer__inner-copyright">
+          <li class="footer__inner-copyright-item">©</li>
+          <li class="footer__inner-copyright-item">2023</li>
+          <li class="footer__inner-copyright-item">github</li>
+        </ul>
+
+        <h3 class="footer__inner-title">Web Study</h3>
+
+        <ul class="social-list">
+          <li class="social-list__item">
+            <a class="social-list__link" href="#">
+              <img class="social-list__icon" src="./images/instagram.svg" alt="instagram">
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="#">
+              <img class="social-list__icon" src="./images/facebook.svg" alt="facebook">
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="#">
+              <img class="social-list__icon" src="./images/twitter.svg" alt="twitter">
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="#">
+              <img class="social-list__icon" src="./images/pinterest.svg" alt="pinterest">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="js/main.js"></script>
 </body>
+
 </html>
